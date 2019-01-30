@@ -1,0 +1,52 @@
+1. 
+INPUT "massa benda" with number 600
+INPUT "percepatan" with number 2
+    CALCULATE "massa benda" multiple "percepatan"
+    SET "resultan gaya" value from calculation result
+        DISPLAY result 1200
+
+2.
+INPUT year to any number
+
+IF year modulo 4 is 0 and 
+IF year modulo 100 is left
+THEN
+    DISPLAY "kabisat year"
+ELSE 
+    DISPLAY "common year"
+
+ELSE IF
+IF year modulo 4 is 0
+IF year modulo 100 is 0
+IF year modulo 400 is 0
+THEN
+    DISPLAY "kabisat year"
+ELSE
+    DISPLAY "common year"
+
+3.
+INPUT "clothes" = 0
+
+WHILE "clothes" < 20
+    ADD "clothes" 1
+        DISPLAY "turn on the washing machine"
+
+4.
+DECLARATION
+long nails = false
+short nails = true
+
+SET "student" to 1
+
+WHILE "student" < 40
+    DISPLAY "keep check"
+
+    IF "student" === true
+        DISPLAY "Good Job Keep The Nails short"
+
+    ELSE IF
+    IF "student" === false
+        DISPLAY "Get out of my class!"
+
+
+
