@@ -39,19 +39,19 @@ for(var counter = 1; counter <= 100; counter++) {
     }
 }
 
-for(counter = 1; counter <=100; counter = counter +2) {
+for(counter = 1; counter <=100; counter += 2) {
     if(counter % 3 === 0) {
         console.log(counter + ' kelipatan 3');
     }
 }
 
-for(counter = 1; counter <= 100; counter = counter +5) {
+for(counter = 1; counter <= 100; counter += 5) {
     if(counter % 6 === 0) {
         console.log(counter + ' kelipatan 6');
     }
 }
 
-for(counter = 1; counter <=100; counter = counter +9) {
+for(counter = 1; counter <=100; counter += 9) {
     if(counter % 10 === 0) {
         console.log(counter + ' kelipatan 10');
     }
