@@ -9,8 +9,8 @@ function xo(str) {
         else if(str[i]==='o') {
             counterO += 1;
         }
-   
-    } if(counterX === counterO) {
+    } 
+    if(counterX === counterO) {
         return true;
     } else {
         return false;
@@ -22,4 +22,3 @@ function xo(str) {
   console.log(xo('oxooxo')); // false
   console.log(xo('oxo')); // false
   console.log(xo('xxxooo')); // true
-  console.log(xo('xoxooxxo')); // true
